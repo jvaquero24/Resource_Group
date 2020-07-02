@@ -1,6 +1,6 @@
 variable "resource_group_name" {
-   default        = var.resource_group_name
+    type        = string
 }
 variable "location" {
-   default        = var.location
+    type        = string
 }
